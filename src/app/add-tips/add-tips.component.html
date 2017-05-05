@@ -1,0 +1,40 @@
+
+<section class="add-tips">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+<a class="back" [routerLink]="['/listings']">Back</a>
+<br />
+<h2 class="page-header">Add Tips Page Content</h2>
+<form (submit)="onTipsSubmit()">
+  <div class="form-group">
+
+    <!--Title-->
+    <label>Title</label>
+    <input class="form-control" type="text" placeholder="Enter Your Title" [(ngModel)]="title" name="title" required>
+  </div>
+
+<!--description Textarea-->
+  <div class="form-group">
+    <label>Description</label>
+    <textarea class="form-control" rows="5" type="text" placeholder="Enter Your Description" [(ngModel)]="description" name="description" ></textarea>
+
+  </div>
+ 
+
+<!--image-->
+  <div class="form-group">
+    <label>Upload a Image</label>
+    <input id="image" name="image" [(ngModel)]="image" type="file" >
+  </div>
+  
+  <input type="submit" value="Post" class="btn btn-primary">
+</form>
+
+
+</div>
+</div>
+</div>
+</section>
+

@@ -1,0 +1,1746 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+    
+
+/************************
+Navigation
+**************/
+
+.navbar-inverse {
+
+height:70px;
+padding-top:20px;
+
+}
+
+.navbar-inverse li{
+
+font-size:18px;
+
+}
+
+
+/*Drop down menu*/
+ul.dropdown-menu {
+    width: 100%;
+   background-color: #3C213E!important;
+}
+
+
+.dropdown-menu>li>a {
+    font-size: 15px;
+}
+
+
+
+
+/************************
+Content Section
+**************/
+
+
+section#content{
+padding-top:40px;
+background: white;
+}
+
+/*padding content*/
+.col-md-12.padding-content {
+    padding-top: 40px;
+    /*padding-bottom: 100px;*/
+    text-align:center;
+    padding-bottom: 50px!important;
+
+}
+
+
+section#content h2{
+    padding-top:50px;
+font-family:'oswald','sans-serif';
+padding-left:15%;
+padding-right:15%;
+color:#FB8C00;
+text-align:center;
+font-size:50px;
+line-height:70px!important;
+font-weight:800;
+
+}
+
+
+
+section#content h3{
+color:black;
+text-align:center;
+font-size:20px;
+line-height:50px;
+padding-left:15%;
+    padding-right:15%;
+
+}
+
+section#content p.lead{
+    font-family: 'Open Sans', sans-serif;
+    padding-left:15%;
+    padding-right:15%;
+font-size:20px;
+text-align:center;
+color:black!important;
+font-weight:300;
+
+}
+
+
+
+/*Admin Area*/
+
+/*Back button*/
+
+a.back {
+    color: white;
+    font-size: 30px;
+    background-color: #ec971f;
+    border-radius: 8px;
+    padding: 10px 10px;
+    text-decoration:none;
+}
+
+
+/*Add Home Content Section*/
+
+section.add-home{
+
+    padding-top:90px;
+    padding-bottom:90px;
+    /*background-color:red;*/
+}
+
+/*Heading*/
+h2.page-header {
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Label*/
+label {
+    font-size: 24px;
+    padding-bottom:20px;
+}
+
+
+/*Input Control*/
+
+input.form-control{
+
+    height:60px;
+    border-radius:8px;
+    font-size:30px;
+}
+
+/*Text area*/
+textarea.form-control {
+height:200px;
+    border-radius:8px;
+    font-size:30px;
+
+}
+
+
+/*Image Uploader*/
+input#image {
+    
+}
+
+/*button*/
+input[type="submit"]{
+display:block;
+margin:auto;
+width:50%;
+background-color:darkorange!important;
+color:white;
+border-radius:8px;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+font-size:30px;
+padding:10px
+
+
+}
+
+
+/*Large Desktop (Portrait and Landscape)*/
+
+@media only screen and (min-width:960px) and (max-width:2400px){
+
+body{
+background:white!important;
+
+}
+
+
+
+/*navbar*/
+
+nav.navbar.navbar-inverse  a {
+
+    font-size:16px!important
+}
+
+
+
+/*Carousel*/
+
+div#myCarousel {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*disable login*/
+li#mylogin {
+    display: none;
+}
+
+
+
+
+
+
+img.nav-logo {
+    width: 30%;
+    margin-top: -30px;
+}
+
+section#search {
+    margin-top:-30px;
+    max-height: 550px!important;
+}
+
+
+
+
+/*About*/
+
+section.about{
+
+background-color:#DF691A!important;
+
+
+
+}
+
+/*Tips Section*/
+section.tips {
+    background-color: white!important;
+    color: black!important;
+}
+
+img.tips {
+    padding-top:15px;
+    width: 30%;
+}
+
+ section.tips h3 {
+    padding-bottom: 15px;
+}
+
+button.btn.btn-primary.btn-lg {
+    width: 40%!important;
+    height: 80px!important;
+    font-size: 35px!important;
+    font-family: 'Oswald','sans-serif';
+    border:none;
+    outline:0;
+}
+
+
+
+
+/*Content Area*/
+
+section#content {
+
+}
+
+section#content h3 {
+    margin-top: -10px;
+    padding-bottom: 40px;
+    color: black;
+    line-height: 40px;
+    
+}
+
+section#content p.lead{
+    margin-bottom:80px!important;
+    white-space:pre-line!important;
+}
+
+/*About Section Tell Your Story*/
+
+.col-md-12.padding-content {
+    margin-top: -60px!important;
+     text-align: center;
+     padding:0;
+     padding-bottom: 50px!important;
+}
+
+
+
+
+
+
+
+
+
+/*Tips*/
+
+.col-md-12.tips-search h2{
+
+    font-size:50px!important;
+}
+
+
+.col-md-12.tips-search h3{
+
+ font-size:30px!important;
+
+
+}
+
+button.btn.btn-warning.btn-lg{
+    margin-left:25%;
+    margin-top:-30px!important;
+    height:60px;
+    font-size:28px!important;
+}
+
+
+
+img.tips-image{
+
+    width:40%!important;
+}
+
+
+/*quickweb*/
+        .carousel-inner {
+    margin-top: -30px!important;
+}
+
+   
+
+}
+
+
+
+@media  screen and (min-width:980px) and (max-width:1090px){
+
+body{
+background-color:yellow;
+
+}
+
+ul.nav.navbar-nav.navbar-left {
+    margin-top: -30px!important;
+    margin-left: 20%!important;
+}
+
+
+/*Font-size of navbar*/
+
+nav.navbar.navbar-inverse a {
+    font-size: 14px!important;
+}
+
+
+}
+
+
+
+/*Tablet/Ipad (Portrait and Landscape)*/
+
+@media only screen and (min-width:768px) and (max-width:980px){
+body{
+    
+}
+section#slider {
+   margin-top:-30px;
+}
+
+
+
+
+img.nav-logo {
+    width: 30%;
+    margin-top: -30px;
+    margin-left:20%!important;
+}
+
+
+
+nav.navbar.navbar-inverse{
+width:100%;
+background-color:#DF691A;
+
+}
+
+nav.navbar.navbar-inverse ul{
+margin-top:-40px;
+margin-left:15%;
+}
+
+nav.navbar.navbar-inverse li{
+display:inline;
+
+}
+
+/*Mobile Menu*/
+nav.navbar.navbar-inverse a{
+
+font-size:12ngpx!important;
+
+}
+
+/*Login not displayed*/
+li#mylogin {
+    display: none;
+}
+
+
+/*home section*/
+
+/*Business Magnet section*/
+section#search {
+    max-height: 430px!important;
+}
+
+
+
+/*Welcome to quickapps section*/
+
+.welcome{
+    padding-top:10%!important;
+}
+
+
+section.section1 {
+    max-height: 500px;
+}
+
+section.section1 h2{
+text-align:center;
+font-size:50px!important;
+font-family: 'Oswald','sans-serif'!important;
+
+
+}
+
+section.section1 h3{
+text-align:center;
+font-size:24px!important;
+line-height:40px;
+font-family: 'Opensans','sans-serif'!important;
+
+}
+
+
+
+
+/*tips section*/
+
+section.tips {
+    margin-top: -20px;
+}
+
+img.tips {
+    margin-top:20px;
+    width: 30%;
+}
+
+
+section.tips h3{
+    color:black;
+    font-size:35px!important;
+}
+
+
+button.btn.btn-primary.btn-lg {
+    width: 40%!important;
+    height: 60px!important;
+    margin-bottom:50px;
+}
+
+
+/*Call to Action*/
+
+
+section.call-action h2{
+
+    font-size:30px!important;
+    text-align:center;
+}
+
+
+
+/*Content*/
+section#content{
+   
+}
+
+section#content img {
+    margin-top: -80px;
+}
+
+section#content h2{
+
+    font-size:35px;
+    line-height:50px!important;
+   
+}
+
+section#content h3{
+
+   
+    margin-bottom:70px;
+   
+}
+
+
+
+section#content p.lead{
+margin-top:-20px;
+line-height:30px!important;
+ white-space:pre-line!important;
+margin-bottom: 120px!important;
+}
+
+
+/*About*/
+
+
+img.buzz{
+    margin-top: 0px!important;
+
+}
+
+button.btn.btn-warning.btn-lg {
+    margin-left: 5%;
+
+}
+
+
+/*Video*/
+
+/*Every day People Section*/
+section#video-searching{
+   
+}
+
+section#video-searching h1{
+
+    font-size:45px!important;
+}
+
+
+button.btn.btn-default.btn-lg {
+    width: 40%!important;
+    height: 70px!important;
+    font-weight: 600!important;
+}
+
+player,iframe{
+background-color:transparent!important;
+margin-top:-20px;
+width:50%;
+height:350px!important;
+    
+}
+
+
+
+
+
+/*Content*/
+
+section#content img {
+
+height:520px!important;
+
+}
+
+
+section#content h2{
+
+    padding-top:30px!important
+}
+
+section#content p{
+
+    padding-top:30px!important
+
+}
+
+
+/*Tips*/
+
+
+
+section.tips{
+    padding:0px!important;
+}
+
+section.tips h2{
+
+    font-size:50px!important;
+    padding:0px!important;
+    
+}
+
+section.tips h3{
+
+    padding:0px!important;
+    font-size:35px!important;
+    line-height:40px!important;
+    
+}
+
+section.tips p{
+
+margin-top:-20px!important;
+
+}
+
+
+section#tips h2{
+
+font-size:45px!important;
+line-height:50px!important
+
+}
+
+
+.col-md-12.tips-search h2{
+    text-align: center!important;
+    font-size:50px!important;
+}
+
+section#banner {
+    height: 200px!important;
+}
+
+img.banner-tips {
+    margin-top: -30px;
+}
+
+
+section.tips-bg {
+    height: 400px!important;
+}
+
+
+
+/*Business*/
+
+section.message-bg{
+
+height:500px!important;
+}
+
+
+
+section.unique h2{
+
+    font-size:40px!important;
+}
+
+section.appmarketing-bg {
+    height: 350px!important;
+}
+
+
+section.custom{
+padding:20px 20px!important;
+
+}
+
+section.custom h2{
+
+font-size: 35px!important;
+    line-height: 50px!important;
+
+}
+
+section.custom p{
+
+    line-height: 30px!important;
+    white-space: pre-line!important;
+    font-family: 'Open Sans', sans-serif;
+   
+
+}
+
+
+.col-md-12.videobg h2{
+font-family: 'Oswald', sans-serif;
+    font-size:35px!important;
+}
+
+
+
+
+/*Videos*/
+
+section#video-business h2{
+
+font-size:50px!important;
+padding-bottom:40px!important;
+text-align:center!important;
+
+
+
+}
+
+
+
+/*Quickweb*/
+.carousel-inner {
+    
+}
+
+
+
+
+
+section#engages{
+background:white!important;
+
+}
+
+
+section#engages h2{
+font-size:45px!important;
+line-height:55px!important;
+color:#1D1F2B;
+
+}
+
+section#engages p{
+
+color:#1D1F2B;
+line-height: 30px!important;
+font-family: 'Open Sans', sans-serif;
+margin-top:-30px;
+
+}
+
+
+section.video-phone-bg {
+    height: 350px!important;
+}
+
+
+section.video-marketing-bg{
+
+height: 350px!important;
+
+}
+
+
+
+/*Quickgraphics*/
+
+
+.carousel-inner {
+    margin-top: -30px!important;
+}
+
+
+section#experience{
+
+    background:white!important;
+
+}
+
+
+section#experience h2{
+
+font-size:45px!important;
+line-height:55px!important
+}
+
+
+section#believing{
+background:white!important;
+
+}
+
+
+section#believing h2{
+font-size:45px!important;
+line-height:55px!important
+
+}
+
+section#believing p{
+
+color:black;
+line-height: 30px!important;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+section.splash-bg {
+    height: 350px!important;
+}
+
+
+section.fluid-bg{
+
+height: 350px!important;
+
+}
+
+
+section#remember{
+
+background:white!important;
+
+}
+
+
+section#remember h2{
+font-size:45px!important;
+line-height:55px!important;
+color:#1D1F2B;
+
+}
+
+section#remember p{
+
+color:#1D1F2B;
+line-height: 30px!important;
+font-family: 'Open Sans', sans-serif;
+margin-top:-30px;
+
+}
+
+
+
+
+section.consumer-bg{
+
+height: 350px!important;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet/Ipad (Portrait and Landscape)*/
+
+@media only screen and (min-width:569px) and (max-width:768px){
+body{
+background-color:white;
+}
+
+section#slider {
+    display:none;
+    
+}
+
+
+/*Navigation*/
+
+.navbar-inverse .navbar-collapse, .navbar-inverse{
+background-color:#DF691A!important;
+    width:100%!important;
+    text-align:center;
+    font-size:20px!important;
+    /*dont overlap menu*/
+    z-index: 9999!important;
+
+}
+
+nav.navbar.navbar-inverse ul{
+padding:0;
+margin: 0;
+background-color:#DF691A;
+
+}
+
+nav.navbar.navbar-inverse li{
+padding:15px 0px;
+
+}
+
+nav.navbar.navbar-inverse a{
+
+font-size:30px!important;
+text-align:center;
+
+}
+
+/*Center Quickapps Logo*/
+img.nav-logo {
+    width: 30%;
+    margin-top: -30px;
+    margin-left:90%!important;
+}
+
+
+
+
+
+
+
+/*Home*/
+
+
+
+/*Business Magnet*/
+section#search {
+   background-color: #13141f!important;
+   padding-bottom:0!important;
+}
+.window-wrapper.text-center {
+    margin-top:-30px;
+    background-color: #13141f!important;
+    color:white!important;
+}
+
+.window-wrapper.text-center h1{
+    color:white!important;
+}
+.window-wrapper.text-center h2{
+    color:white!important;
+}
+
+
+
+/*welcome to quickapps*/
+
+section.section1 {
+    background-size: contain!important;
+    background-size: stretch!important;
+    height: 200px!important;
+    width: 100%;
+    /* height: 400px!important; */
+}
+
+/*Call to Action*/
+
+section.call-action {
+    height: 60px;
+}
+
+section.call-action h2{
+margin-top:-30px;
+font-size:20px!important;
+text-align:center;
+
+}
+
+
+
+/*Tips Section*/
+
+
+
+section.tips h3{
+
+    color:white;
+    font-size:24px!important;
+    line-height:30px!important;
+}
+
+img.tips {
+    width: 40%;
+}
+
+
+button.btn.btn-primary.btn-lg{
+
+    width:40%!important;
+    height:60px!important;
+
+}
+
+
+
+
+
+/*Content Section Posts*/
+
+section#content{
+    padding-top:0!important;
+}
+
+ section#content img{
+}
+
+
+section#content h2{
+ font-size: 40px!important;
+ line-height:50px!important;
+ margin-bottom:15px;
+
+}
+
+section#content h3{
+ margin-top:-20px;
+ line-height:30px;
+ margin-bottom:30px;
+
+}
+
+section#content p{
+
+    margin-bottom:30px!important;
+}
+
+
+
+/*About*/
+
+section.about{
+padding-top:0px!important;
+}
+
+.col-md-12.about{
+   
+
+}
+
+img.buzz{
+    display:block;
+    margin:auto;
+    width:70%;
+ 
+}
+
+section.about h2{
+text-align:center;
+font-size:45px!important;
+}
+
+
+button.btn.btn-warning.btn-lg{
+
+    display:block;
+    margin:auto;
+    font-size:24px!important;
+}
+
+
+section#video-searching h1{
+
+    font-size:35px!important;
+
+}
+
+
+section.keeps-business{
+    background-color: #0E0E0E;
+    height: 200px!important;
+}
+
+
+
+/*Video iframe*/
+player,iframe{
+background-color:transparent!important;
+margin-top:-20px;
+width:50%;
+height:350px!important;
+    
+}
+
+
+/*Content*/
+
+.col-md-12.padding-content {
+
+padding:0!important;
+
+
+}
+
+
+
+/***********************************************
+////// Tips
+/************************************************/
+
+section.tips {
+    height: 550px!important;
+}
+
+.col-md-12.tips-search {
+    text-align: center!important;
+    padding: 0;
+    margin-top: -150px;
+}
+
+.col-md-12.tips-search  h3{
+
+    font-size:24px!important;
+    margin-top:-15px;
+    line-height:40px;
+}
+
+
+/*Banner*/
+
+section#banner {
+    height: 200px!important;
+}
+
+img.banner-tips{
+    margin-top:-50px
+}
+
+
+
+/*Tips*/
+
+img.tips-image {
+    width: 30%;
+}
+
+
+section#tips h2{
+font-size:30px!important;
+line-height:40px!important;
+
+}
+
+
+section.tips-bg {
+    height: 400px!important;
+}
+
+
+section#content p{
+white-space:pre-line!important;
+}
+
+
+/********************************************************************
+* Business
+********************************************************************/
+
+
+
+section.message-bg{
+height: 550px!important;
+width:100%!important;
+
+}
+
+
+
+section.unique {
+    height: 220px;
+}
+
+
+section.unique h2{
+font-size:35px!important;
+}
+
+
+section.appmarketing-bg{
+
+height: 550px!important;
+width:100%!important;
+
+}
+
+
+img.keeps {
+    margin-top: 30px;
+}
+
+
+
+section.custom {
+    height: 500px!important;
+    padding:0!important;
+    margin:0;
+}
+
+section.custom h2{
+     color:orange!important;
+    font-size:40px!important;
+}
+
+
+section.custom p.lead {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px!important;
+    text-align: center;
+    color: black!important;
+    
+  
+}
+
+
+
+section#video-business h2{
+
+    font-size:40px!important;
+    padding-bottom:40px!important;
+    margin-top:-50px;
+    text-align:center!important;
+}
+
+
+
+
+}
+
+
+
+/*Tablet/Ipad (Portrait and Landscape)*/
+
+@media only screen and (min-width:320px) and (max-width:569px){
+body{
+
+background-color:'white'!important;
+
+}
+
+/*Navbar*/
+/*Mobile Menu*/
+.navbar-inverse .navbar-collapse, .navbar-inverse{
+background-color:#DF691A!important;
+    width:100%!important;
+    text-align:center;
+    font-size:20px!important;
+    /*dont overlap menu*/
+z-index: 9999!important;
+   }
+
+
+nav.navbar.navbar-inverse ul{
+padding:0;
+margin:0;
+background-color:#DF691A;
+
+}
+
+nav.navbar.navbar-inverse li{
+padding:15px 0px;
+
+}
+
+nav.navbar.navbar-inverse a{
+
+font-size:30px!important;
+text-align:center;
+
+}
+
+ul.dropdown-menu {
+    text-align: center!important;
+}
+
+
+/*Logo*/
+
+img.nav-logo {
+    display: block;
+    margin-left: 70%!important;
+}
+
+/*Slider*/
+section#slider {
+    display: none!important;
+}
+
+
+section#search {
+    margin-top: -30px;
+}
+
+
+section.section1{
+
+    height:350px!important;
+}
+
+
+
+
+img.nav-logo {
+    width: 30%;
+    margin-top: -20px;
+    /* display: block; */
+    /* margin: auto; */
+    margin-left: 90%;
+}
+
+
+
+
+section.section1 {
+    background-size:contain!important;
+    height: 300px!important;
+   background-color: #fff!important;
+
+}
+
+
+.window-wrapper.text-center{
+background-color: #13141f!important;
+color:white;
+
+}
+
+.window-wrapper.text-center h2{
+
+    color:white!important;
+}
+
+.window-wrapper.text-center h1{
+
+    color:white!important;
+}
+
+
+/*Call to action*/
+
+section.call-action h2{
+
+    font-size:18px!important;
+    line-height:30px;
+}
+
+
+
+/*Tips*/
+
+section.tips{
+margin-top:-20px;
+
+}
+
+.col-md-12.text-center.tips h3{
+
+    color:white!important;
+    line-height:40px!important;
+}
+
+img.tips{
+
+    width:30%!important;
+}
+
+section.tips h3{
+
+    color:black!important;
+    font-size:24px!important;
+}
+
+button.btn.btn-primary.btn-lg{
+
+    width:60%!important;
+    font-size:24px;
+    height:60px;
+    border:none;
+    outline:0;
+}
+
+
+/*Content*/
+
+
+section#content h2{
+
+    font-size:35px!important;
+    line-height:45px!important;
+     font-family:'Open-sans','sans-serif';
+}
+
+
+section#content p.lead{
+ white-space:pre-line;
+
+
+}
+
+
+
+/********************************************************************
+* About Page
+********************************************************************/
+
+section.about{
+
+    z-index: -99999px!important;
+}
+
+
+
+
+img.buzz{
+
+width:50%!important;
+display:block;
+margin:auto;
+margin-top:-30px!important;
+
+
+}
+
+section.about h2{
+
+    text-align:center;
+}
+
+
+button.btn.btn-warning.btn-lg{
+display:block;
+margin:auto;
+width:60%;
+height:60px;
+font-size:20px!important;
+}
+
+button.btn.btn-default.btn-lg{
+display:block;
+margin:auto;
+width:60%!important;
+height:60px;
+font-size:20px!important;
+}
+
+
+section#video-searching{
+
+}
+
+section#video-searching h1{
+
+font-size:28px!important;
+
+
+}
+
+
+
+/*Video*/
+
+player,iframe{
+background-color:transparent!important;
+margin-top:-20px;
+width:50%;
+height:350px!important;
+    
+}
+
+
+/*Content*/
+
+.col-md-12.padding-content {
+
+padding:0!important;
+
+
+
+}
+
+
+/********************************************************************
+* Tips Page
+********************************************************************/
+
+section.tips {
+    height: 550px!important;
+}
+
+.col-md-12.tips-search {
+    text-align: center!important;
+    padding: 0;
+    margin-top: -150px;
+}
+
+.col-md-12.tips-search  h3{
+
+    font-size:24px!important;
+    margin-top:-15px;
+    line-height:40px;
+}
+
+
+/*Banner*/
+
+section#banner {
+    height: 200px!important;
+}
+
+img.banner-tips{
+    margin-top:-50px
+}
+
+
+
+/*Tips*/
+
+img.tips-image {
+    width: 30%;
+}
+
+
+section#tips h2{
+font-size:30px!important;
+line-height:40px!important;
+
+}
+
+
+section.tips-bg {
+    height: 400px!important;
+}
+
+
+section#content p{
+white-space:pre-line!important;
+}
+
+
+
+/********************************************************************
+* Business
+********************************************************************/
+
+
+
+section.message-bg{
+height: 350px!important;
+width:100%!important;
+
+}
+
+
+
+section.unique {
+    height: 220px;
+}
+
+
+section.unique h2{
+margin-top:-20px!important;
+line-height:40px!important;
+font-size:35px!important;
+}
+
+
+section.appmarketing-bg{
+
+height: 350px!important;
+width:100%!important;
+
+}
+
+
+img.keeps {
+    margin-top: 30px;
+}
+
+
+
+section.custom {
+    height: auto!important;
+    padding:0!important;
+    margin:0;
+}
+
+section.custom h2{
+     color:orange!important;
+    font-size:35px!important;
+    line-height:40px!important;
+}
+
+
+section.custom p.lead {
+    font-family: 'Open Sans', sans-serif!important;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px!important;
+    text-align: center;
+    color: black!important;
+    
+}
+
+
+
+section#video-business h2{
+
+    font-size:30px!important;
+    padding-bottom:40px!important;
+    margin-top:-50px;
+    text-align:center!important;
+}
+
+
+/*Video*/
+
+player,iframe{
+background-color:transparent!important;
+margin-top:-20px;
+width:80%;
+height:350px!important;
+    
+}
+
+
+
+
+}
+
+
+/*Iphone 5 Screen*/
+@media(max-width:320px){
+
+/*Navigation*/
+
+.navbar-collapse, {
+margin-top: -5dpx!important;
+ 
+}
+
+img.nav-logo {
+    margin: 0px!important;
+    margin-top: -50px!important;
+    width: 25%!important;
+    margin-left: 50%!important;
+}
+
+
+/*Is your Business magnet*/
+
+section#search{
+
+    background-color:#13141f!important;
+    padding-bottom:0px!important
+}
+
+
+/*Welcome to Quickapps*/
+section.section1 {
+    display: none;
+}
+
+
+
+section.call-action h2{
+
+    font-size:24px!important;
+}
+
+
+
+section.tips{
+height:290px!important;
+
+
+}
+
+
+button.btn.btn-warning.btn-lg {
+    width: 70%!important;
+}
+
+
+#video-searching h1{
+
+    line-height:40px!important;
+}
+
+
+button.btn.btn-default.btn-lg{
+
+font-family: 'Oswald','sans-serif'!important;
+
+}
+
+/*Video section*/
+
+section.keeps-business {
+
+height:50px!important;
+
+}
+
+
+section#video{
+
+padding-top:40px!important;
+padding-bottom:40px!important
+
+}
+
+player,iframe{
+background-color:transparent!important;
+margin-top:-20px;
+width:80%;
+height:200px!important;
+
+}
+
+/*Content Images*/
+img {
+  
+}
+
+
+/********************************************************************
+* Tips Page
+********************************************************************/
+
+section.tips{
+    padding:0px!important;
+    margin-top:0px!important;
+   background-size:contain!important;
+
+
+}
+
+section.tips h2{
+
+    font-size:30px!important;
+}
+
+section.tips img{
+
+
+
+}
+
+
+.col-md-12.tips-search {
+    
+   
+}
+
+}

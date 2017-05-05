@@ -1,0 +1,44 @@
+
+
+              <!--
+********************************************************************
+* Content Mobile Marketing
+********************************************************************
+--> 
+
+
+
+<section id="content" data-type="background" data-speed="5">
+  <!--we get data from our listings node-->
+  <div *ngFor="let mob of mobile" class="row">
+
+<div class="col-md-12 padding-content">
+<img  style="width:100%"   [src]="mob.imageUrl"/>
+<!--loop throught the listings node-->
+ <!--title-->
+<h2>{{mob.title}}</h2><br>
+<!--description-->
+<p ng-bind-html="description" class="lead">{{mob.description}}</p>
+
+ 
+</div>
+</div>
+
+</section><!--content-->
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

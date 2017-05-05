@@ -1,0 +1,197 @@
+h1{
+    margin-top:90px;
+}
+
+
+/*Background-slider image1 Full*/
+.carousel-item.active{
+height: 100vh;
+    
+background:url('./assets/images/fast_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-size: cover;
+background-position:center center;
+
+    }
+
+
+
+
+
+
+
+
+    /*Background-slider QuickgraphicsFull*/
+.carousel-item.active2{
+height: 100vh;
+    
+background:url('./assets/images/quickgraphic_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-size: cover;
+background-position:center center
+
+    }
+
+    /*Background-slider image1 Full*/
+.carousel-item.active3{
+height: 100vh;
+    
+background:url('./assets/images/bg3.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-size: cover;
+background-position:center top;
+
+    }
+
+
+        /*Background-slider image1 Full*/
+.carousel-item.active4{
+height: 100vh;
+    
+background:url('./assets/images/bg4.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-size: cover;
+background-position:center top;
+
+    }
+
+
+        .carousel-inner {
+    margin-top: -30px!important;
+}
+
+
+
+/*Experience*/
+    section#experience{
+
+padding-top:40px;
+padding-bottom:40px;
+background-color:white!important;
+
+
+    }
+
+
+    section#experience h2{
+    color: darkorange;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    text-align:center;
+
+    }
+
+
+
+
+
+
+
+section#keeps-business-banner{
+background-color:#0E0E0E!important;
+
+
+
+}
+
+
+
+#section.splash-white h2{
+    color: darkorange;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+
+
+}
+
+
+
+img.keeps-business{
+
+    width:100%!important;
+}
+
+
+
+
+
+
+/*Video-responsive*/
+#video-responsive{
+
+padding-top:90px;
+padding-bottom:90px;
+background-color:black;
+
+
+
+}
+
+iframe{
+
+    width:80%;
+    height:360px;
+    margin-left:15%;
+}
+
+
+
+
+/*create parralax scroll effect*/
+.splash-bg{
+height: 100vh;
+    
+background:url('./assets/images/splash.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+/*Believing*/
+
+#believing{
+
+padding-top:90px;
+padding-bottom:40px;
+background-color:black;
+}
+
+#believing h2{
+    color: darkorange;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    padding-bottom:15px;
+
+
+}
+
+
+.fluid-bg{
+height: 100vh;
+    
+background:url('./assets/images/design-fluid.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+
+}
+
+ol.carousel-indicators {
+    display: none;
+}

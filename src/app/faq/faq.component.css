@@ -1,0 +1,63 @@
+
+section#faq{
+margin-top:-30px;
+background-color:white;
+    padding-top:90px;
+
+}
+
+img.frequently-img {
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+section#faq h1{
+
+font-size:50px;
+font-family:'Oswald','sans-serif';
+color:black;
+
+}
+
+
+section#faq p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #df691a;
+    font-size: 40px;
+    font-family: 'Oswald','sans-serif';
+
+}
+
+.panel-heading {
+    background-color: #df691a!important;
+    padding: 40px;
+}
+
+
+.panel-heading a{
+    font-family:'oswald','sans-serif';
+    font-size:30px;
+    text-decoration:none;
+}
+
+
+.panel-body {
+    padding-left:50px; 
+    padding-right:50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: Open Sans;
+}
+
+strong.email-faq {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bolder;
+}

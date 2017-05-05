@@ -1,0 +1,78 @@
+/********************************************************************
+* Navigation Transparency
+********************************************************************/
+/*Change navbar color on scroll to orange color*/
+/*.navbar-fixed-top.scrolled {
+  background-color: #F2911E !important;
+  transition: background-color 200ms linear;
+
+
+  font:Open Sans
+  h1:Oswald
+}*/
+
+
+.navbar-inverse{
+
+ /*background-color:transparent!important;
+    opacity:0.9;
+    height:100px;
+    margin:0;*/
+    height:100px;
+    border-bottom:1px solid grey;
+    padding-top:30px;
+}
+
+/*logo will be replaced with a image*/
+a.navbar-brand {
+font-size: 28px;
+font-family: 'Oswald', sans-serif;
+}
+
+
+
+/*Links for menu*/
+.navbar-inverse .navbar-nav>li>a {
+
+font-family: 'Oswald', sans-serif;
+font-size:22px;
+
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover{
+
+background-color:#DF691A!important;
+
+}
+
+
+
+
+/*Drop down menu*/
+ul.dropdown-menu {
+    width: 100%;
+    background-color:#DF691A!important;
+}
+
+
+.dropdown-menu>li>a {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.dropdown-menu>li>a:hover {
+ background-color:#DF691A!important;
+}
+
+
+
+/*Add padding to navigation-bar*/
+
+
+
+
+

@@ -1,0 +1,287 @@
+/********************************************************************
+*  Parrallax Scolling Main Feature Tips
+********************************************************************
+*/
+.tips{
+margin-top:-40px;
+height: 100vh;
+background:url('./assets/images/tipsbg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+.tips-search{
+
+position:absolute;
+top:200px;
+}
+
+.tips-search h2{
+    color: white!important;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif!important;
+font-weight: 900;
+padding-bottom:30px;
+
+
+}
+
+.tips-search h3{
+    font-family: 'Muli', sans-serif!important;
+color: white!important;
+    font-size: 28px;
+    margin-bottom:15px;
+
+}
+
+/*button*/
+button.btn.btn-warning.btn-lg {
+    margin-top:15px;
+    width: 60%;
+    height: 60px;
+    font-size: 28px;
+    border:none;
+    outline:0px;
+    font-weight:900;
+}
+
+
+/********************************************************************
+*  Image Bannner
+********************************************************************
+*/
+img.banner-tips{
+width:100%;
+
+}
+
+
+/********************************************************************
+*  Business tips whiteboard
+********************************************************************
+*/
+section#tips {
+    padding-top:90px;
+    padding-bottom:30px;
+    background-color:white; 
+}
+
+section#tips h2{
+
+font-family: 'Muli', sans-serif!important;
+    font-size: 60px;
+    color: coral;
+    font-weight:900;
+
+}
+
+section#tips h3{
+    color:black;
+ margin-bottom:15px;
+}
+
+section#tips p{
+
+    font-size:20px;
+    line-height:30px;
+    color:black;
+}
+
+
+
+/********************************************************************
+* Parrallax Image Business tips
+********************************************************************
+*/
+.tips-bg{
+height: 100vh;
+    
+background:url('./assets/images/tips-bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+
+
+/********************************************************************
+* Content Css
+********************************************************************
+*/
+
+
+
+/*=================================
+About Main background featured
+======================*/
+
+
+/*==General Styles==*/
+
+body{
+
+    background-color:white!important;
+}
+
+section{
+    padding-top:90px;
+    padding-bottom:90px;
+}
+
+h1{
+    font-size:70px;
+}
+
+
+
+p{
+color:black;
+font-size:20px;
+line-height:40px;
+text-align:center;
+padding: 0px 50px 50px 100px;
+
+}
+
+/*create parralax scroll effect*/
+
+.about{
+margin-top:-25px;
+height: 100vh;
+background:url('./assets/images/aboutbg.jpg');
+background-repeat:no-repeat;
+height:700px;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}
+
+.col-md-12.about {
+    margin-top: 4px;
+}
+
+img.buzz{
+    margin-top:90px;
+width:20%;
+}
+
+.about h2{
+    margin-bottom:30px;
+color:white!important;
+font-size:28px!important;
+line-height:50px;
+
+}
+.about p{
+color:white;
+font-size:20px;
+line-height:30px;
+
+}
+
+
+/*SmartPhone Button */
+
+.smartphone{
+
+   position:absolute;
+   top:500px;
+  }
+
+button.btn.btn-warning.btn-lg{
+
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+}
+
+
+
+/*********************************
+People are searching section
+********/
+section#video-searching{
+background-color:white;
+   padding-top:90px;
+   padding-bottom:90px; 
+}
+
+#video-searching h1{
+color:darkorange;
+font-size:60px;
+font-family: 'Muli', sans-serif;
+font-weight:900;
+
+
+}
+
+
+#video-searching h2{
+    margin-top:40px;
+color:black;
+font-size:40px;
+font-family: 'Muli', sans-serif;
+font-weight:900;
+
+
+}
+
+#video-searching p{
+font-size:20px;
+text-align:center;
+padding-bottom:30px;
+font-family: 'Muli', sans-serif;
+margin-top:20px;
+
+}
+
+iframe{
+width:80%;
+height:600px;
+
+}
+
+
+
+
+
+/************************
+Keeps Image
+**************/
+section#banner {
+    background-color: #0E0E0E;
+height:auto;
+
+}
+img.keeps-img{
+    width:100%;
+    margin-top:-40px;
+}
+
+
+
+
+
+
+
+
+
+
+

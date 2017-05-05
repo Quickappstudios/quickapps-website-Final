@@ -1,0 +1,45 @@
+
+
+<section id="content" data-type="background" data-speed="5">
+  <!--we get data from our brands node-->
+  <div *ngFor="let brand of brands" class="row">
+
+
+<div class="col-md-12 padding-content">
+
+<img class="online-thumb" style="width:100%"   [src]="brand.imageUrl"/>
+
+
+<!--loop throught the listings node-->
+ <!--title-->
+<h2>{{brand.title}}</h2><br>
+<!--description-->
+<p ng-bind-html="description" class="lead">{{brand.description}}</p>
+
+
+
+
+
+</div>
+</div>
+
+</section><!--content-->
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

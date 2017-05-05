@@ -1,0 +1,198 @@
+/*Image Feature Online*/
+img.quickstore {
+    width: 100%;
+    margin-top: -30px;
+}
+
+
+section#online{
+background-color:white;
+  
+}
+
+section.online-content{
+padding-top:40px;
+padding-bottom:40px;
+    background-color:white;
+}
+
+section.online-content h2{
+
+    text-align:center;
+    color:black;
+    font-weight:900;
+    line-height:35px;
+    font-size:40px;
+}
+
+section.online-content h3{
+
+    text-align:center;
+    color:black;
+    line-height:35px;
+}
+
+
+span.red {
+    color: red;
+}
+
+
+/*Download*/
+
+section#download{
+padding-top:40px;
+padding-bottom:40px;
+    background:black;
+}
+
+
+section#download h2{
+   padding-top:40px;
+    font-size:40px;
+    font-family:'Oswald','sans-serif';
+    line-height:50px;
+}
+
+section#download h3{
+   padding-top:30px;
+    font-size:30px;
+    font-family:'Oswald','sans-serif';
+    line-height:50px;
+    text-align:center;
+    color:darkorange;
+}
+
+
+
+img.coffee{
+padding-top:50px;
+padding-left:50px;
+width:80%;
+
+
+}
+
+
+section#download p{
+padding-top:40px;
+padding-bottom:40px;
+    font-size:20px;
+    text-align:center;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
+/*Friday*/
+
+img.busy-friday {
+    width: 100%;
+}
+
+
+
+section#girls-talking h2{
+
+
+    padding-top: 50px;
+    font-family: 'oswald','sans-serif';
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #FB8C00;
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px!important;
+    font-weight: 800;
+
+}
+
+section#girls-talking p{
+
+font-family: 'Open Sans', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    text-align: center;
+    color: black!important;
+}
+
+
+button.btn.btn-warning {
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    outline: 0;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+
+}
+
+
+
+/*Install*/
+
+section#install{
+
+padding-top:40px;
+    background-color:#1D1F2B;
+
+
+}
+
+
+
+section.online-footer{
+
+    padding-top:40px;
+    background-color:#1D1F2B;
+}
+
+
+section.online-footer h2{
+font-family:'oswald','sans-serif';
+ text-align:center;
+ line-height:50px;
+
+}
+
+
+section.online-footer h4{
+font-family:'oswald','sans-serif';
+ text-align:center;
+ font-size:20px;
+ padding-bottom:40px;
+ line-height:40px;
+
+}
+
+
+
+section.online-footer p{
+    padding-top:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:20px;
+    
+}
+
+
+
+
+img.apple-btn {
+    width: 90%;
+    padding-bottom:40px;
+}
+
+img.google-btn {
+    width: 90%;
+    padding-bottom:40px;
+}
+

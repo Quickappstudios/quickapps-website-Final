@@ -1,0 +1,143 @@
+
+  <!--
+********************************************************************
+* FEATURED HERO ABOUT
+********************************************************************
+-->   
+
+<section class="about">
+<div class="container">
+<div class="row">
+    
+    
+    <!--<div class="col-md-6 ">-->
+ 
+<div class="col-md-12 about">
+ <img class="buzz" src="assets/images/buzz.png" alt="buzzlogo"/>
+      <h2> For a Business Like yours</h2>
+     <!--button smartphone-->
+     <button class=" btn btn-warning btn-lg">On A Smartphone</button> 
+</div><!--col-md-12-->
+
+</div><!--row-->
+</div><!--container-->
+</section><!--about-->
+
+
+
+
+  <!--
+********************************************************************
+* People are Searching
+********************************************************************
+-->     
+            
+            <section id ="video-searching">
+                
+                <div class="row text-center">
+            
+            <div class="col-md-12">
+<h1>Everyday People are Searching </h1>
+<h1>For a Business Like Yours...</h1>
+
+<button class="btn btn-default btn-lg">On A Smartphone</button>
+
+            </div><!--col-md-12-->
+                </div><!--row-->
+            </section><!--video searching-->
+
+  <!--
+********************************************************************
+* Keep Business Section
+********************************************************************
+-->  
+
+<section class="keeps-business">
+
+<img class="keeps-img" src="assets/images/keeps-business.jpg" alt="keep business"/>
+</section>  <!--keeps-business-->
+
+
+
+
+
+<!--
+********************************************************************
+* Video
+********************************************************************
+--> 
+<section id="video">
+          
+  <div class="container">
+  
+  <div class="row">
+  
+  <div class="col-md-12 videobg">
+             
+<div class="wow zoomIn" data-wow-duration="3s" data-wow-delay="0s" style="visibility: visible; animation-duration: 3s; animation-delay: 0s; animation-name: zoomIn;">
+                    
+				<iframe src="https://player.vimeo.com/video/166618008" width="640" height="360"
+                   poster="http://www.quickapps.ie/make/images/video-poster.jpg" controls=""
+                      
+              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>          
+        </div>
+                
+                
+                </div><!--row-->
+                
+                
+                </div><!--container-->
+                </section><!--video-->
+
+               
+
+
+<!--
+********************************************************************
+* Content Area Posts
+********************************************************************
+--> 
+
+
+
+<section id="content" data-type="background" data-speed="5">
+  <!--we get data from our listings node-->
+  <div *ngFor="let abs of about" class="row">
+
+<div class="col-md-12 padding-content">
+<img  style="width:100%"   [src]="abs.imageUrl"/>
+<!--loop throught the listings node-->
+ <!--title-->
+<h2>{{abs.title}}</h2><br>
+<!--description-->
+<p ng-bind-html="description" class="lead">{{abs.description}}</p>
+
+ <!--<img style="width:100%; background:url([src]="abs.imageUrl"); no-repeat 0px 0px;"/>-->
+
+<!--image url firebasestorage-->
+<!--parralax image-->
+
+
+
+</div>
+</div>
+
+</section><!--content-->
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

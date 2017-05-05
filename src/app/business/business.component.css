@@ -1,0 +1,173 @@
+
+
+.message-bg{
+height: 100vh;
+ margin-top:-40px;   
+background:url('./assets/images/message_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+
+}
+
+
+
+   section.unique{
+background-color:white;
+       padding-top:90px;
+       padding-bottom:90px;
+   }
+   
+   
+   section.unique h2{
+    
+    color: darkorange;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+/*Section Custom*/
+section.custom{
+padding-top:90px;
+padding-bottom:90px!important;
+background-color:white!important;
+
+}
+
+section.easy h2{
+
+    color: darkorange;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    padding-bottom:15px;
+}
+
+
+.lead{
+color:black;
+padding-bottom:90px;
+line-height:40px;
+
+}
+
+
+
+
+
+
+
+/*section keeps*/
+
+section.keeps-business{
+margin:0;
+padding:0;
+ 
+}
+
+.col-md-12.keeps {
+background-color:#12100E!important;
+}
+
+img.keeps{
+
+width:100%;
+
+
+
+}
+
+/*Section App Marketing*/
+section.appmarketing-bg{
+
+background:url('./assets/images/app-marketing.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+
+}
+
+
+/*Section App Marketing*/
+section.website-bg{
+
+background:url('./assets/images/website_bg.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+
+}
+
+/*Section Custom*/
+section.custom{
+
+padding-bottom:30px!important;
+
+}
+
+section.custom h2{
+margin-top:90px;
+    color: darkorange;
+    font-size: 60px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    padding-bottom:15px;
+}
+
+/*Video-business*/
+
+section#video-business{
+
+padding-top:90px;
+padding-bottom:90px;
+background-color:black;
+
+
+}
+
+
+#video-business h2{
+
+    padding-top:30px;
+    color:white;
+    line-height:50px;
+    font-size:70px;
+    padding-bottom:30px;
+    margin-bottom:10px;
+}
+
+
+
+
+.seeing-bg{
+height: 100vh;
+    
+background:url('./assets/images/seeing-believing.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+}

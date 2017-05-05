@@ -1,0 +1,128 @@
+
+
+
+/*Add Branding Backend*/
+
+section.add-tips{
+margin-top:-20px;
+  background-color:black;
+  padding-top:90px;
+}
+
+/*BackButton*/
+.back-btn {
+    
+   margin-top:50px;
+}
+
+
+a.back{
+
+
+
+}
+
+
+
+/*Page Header*/
+
+h2.page-header{
+
+    margin-top:-50px;
+}
+
+
+
+/*Form Container*/
+
+form.ng-untouched.ng-pristine.ng-invalid {
+    margin-top: 30px;
+}
+
+
+input,textarea {
+    color: black!important;
+}
+
+
+
+input.btn.btn-primary{
+color:white!important;
+}
+
+
+
+
+
+/*Back button*/
+
+a.back {
+    color: white;
+    font-size: 30px;
+    background-color: #ec971f;
+    border-radius: 8px;
+    padding: 10px 10px;
+    text-decoration:none;
+}
+
+
+/*Add Home Content Section*/
+
+section.add-home{
+
+    padding-top:90px;
+    padding-bottom:90px;
+    /*background-color:red;*/
+}
+
+/*Heading*/
+h2.page-header {
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Label*/
+label {
+    font-size: 24px;
+    padding-bottom:20px;
+}
+
+
+/*Input Control*/
+
+input.form-control{
+
+    height:60px;
+    border-radius:8px;
+    font-size:30px;
+}
+
+/*Text area*/
+textarea.form-control {
+height:200px;
+    border-radius:8px;
+    font-size:30px;
+
+}
+
+
+/*Image Uploader*/
+input#image {
+    
+}
+
+/*button*/
+input[type="submit"]{
+display:block;
+margin:auto;
+width:50%;
+background-color:darkorange!important;
+color:white;
+border-radius:8px;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+font-size:30px;
+padding:10px
+
+
+}

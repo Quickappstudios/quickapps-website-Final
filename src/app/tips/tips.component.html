@@ -1,0 +1,144 @@
+                       <!--
+********************************************************************
+* Tips Section Parrallax Container
+********************************************************************
+--> 
+
+<section class="tips">
+<div class="container">
+<div class="row">
+    
+<div class="col-md-6 ">
+  <div class="col-md-12 tips-search">
+          <h2>People are Searching</h2>
+          <h3>For a Business</h3>
+          <h3>Like yours Right Now...</h3>
+          <button class=" btn btn-warning btn-lg">On a SmartPhone</button>
+          </div><!--col-12-->
+          
+          </div><!--col-6-->
+
+ <!--image right-->
+
+      <div class="col-md-6 ">
+        <div class="col-md-12 ">
+ 
+</div><!--col-md-12-->
+
+</div><!--col-md-6-->
+     
+     
+     
+      </div><!--row-->
+      </div><!--container-->
+      </section><!--section tips-->
+
+
+                             <!--
+********************************************************************
+* Banner Section
+********************************************************************
+--> 
+
+<section id="banner">
+<img class="banner-tips" src="assets/images/keeps-business.jpg" alt="bussiness-keeps"/>
+
+</section>
+
+                           <!--
+********************************************************************
+* Tips Section
+********************************************************************
+-->
+
+<section id="tips">
+
+    <div class="row text-center">   
+
+        <div class="col-md-12"> 
+
+           
+<img class="tips-image" src="assets/images/tips.png" alt="tips"/>
+
+
+<h2>How to Put Your Business <br>On a Smartphone...</h2>
+
+<h3>Tell Your Story Through Your Own Branded App</h3>
+
+<p>People can find your business easily and quickly through your own branded optimized website<br>
+and by downloading your app.</p>
+
+
+
+        </div><!--col-12-->
+    </div><!--row-->
+
+</section>
+
+
+
+
+
+
+
+      <!--
+********************************************************************
+* Parrallax Image Tips
+********************************************************************
+--> 
+
+<section class="tips-bg">
+<div class="container">
+<div class="row">
+    
+
+    </div><!--row-->
+      </div><!--container-->
+      </section><!--tips-bg-->
+
+
+
+
+
+
+                         <!--
+********************************************************************
+* Content Area
+********************************************************************
+-->
+
+
+<section id="content" data-type="background" data-speed="5">
+  <!--we get data from our listings node-->
+  <div *ngFor="let ti of tips" class="row">
+
+
+<div class="col-md-12 padding-content">
+
+<!--loop throught the listings node-->
+ <!--title-->
+<h2>{{ti.title}}</h2><br>
+<!--description-->
+<p class="lead">{{ti.description}}</p>
+
+
+<!--image from storage-->
+
+
+ <div parallax speed="2">
+   <img  style="width:100%"   [src]="ti.imageUrl"/>
+
+  
+  </div>
+
+
+
+
+</div>
+</div>
+
+</section><!--content-->
+
+
+
+

@@ -1,0 +1,50 @@
+
+
+/*Add Branding Backend*/
+
+section.add-online{
+margin-top:-20px;
+  background-color:black;
+    padding-top:90px;
+}
+
+/*BackButton*/
+.back-btn {
+    
+   margin-top:0px;
+}
+
+
+a.back{
+
+
+
+}
+
+
+
+/*Page Header*/
+
+h2.page-header{
+
+    margin-top:-40px;
+}
+
+
+
+/*Form Container*/
+
+form.ng-untouched.ng-pristine.ng-invalid {
+    margin-top: 30px;
+}
+
+
+input,textarea {
+    color: black!important;
+}
+
+
+
+input.btn.btn-primary{
+color:white!important;
+}

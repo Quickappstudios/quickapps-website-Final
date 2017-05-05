@@ -1,0 +1,699 @@
+/*global styles*/
+
+
+p.lead {
+padding-top:15px;
+font-size:22px!important;
+line-height:35px;
+
+}
+
+   /*--=============================================================================
+//Quickshop Slider
+=============================================================================*/
+
+
+
+/*Background-slider image1 Full*/
+.carousel-item.active{
+height: 100vh;
+    
+background:url('./assets/images/online.jpg');
+background-repeat:no-repeat;
+height: 100vh;
+background-size: cover;
+background-position:center top;
+
+    }
+
+
+
+   section#keeps-business-banner{
+    
+background-color:#0E0E0E!important;
+   }
+
+
+img.keeps-business{
+
+width:100%;
+}
+
+
+
+
+/*quickshop section*/
+section#quickshop{
+
+padding-top:90px;
+padding-bottom:90px;
+
+
+}
+
+section#quickshop h2{
+    font-family: 'Varela Round', sans-serif!important;
+padding-top: 30px;
+    color: #427A0F;
+    margin-bottom:30px;
+    font-size: 60px;
+    padding-bottom:40px;
+text-align:center;
+font-weight:900;
+
+
+}
+
+
+
+/*video quickshop*/
+
+section#video-quickshop{
+padding-top:90px;
+padding-bottom:90px;
+background-color:black;
+
+}
+
+#video-quickshop h2{
+font-family: 'Varela Round', sans-serif!important;
+   padding-top: 30px;
+    color: white;
+    line-height: 50px;
+    font-size: 70px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+iframe{
+
+    width:80%;
+    height:360px;
+    margin-left:15%;
+}
+
+
+/*Quickshop parallax*/
+
+.quickshop-bg{
+
+background:url('./assets/images/quickshopphone.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+
+}
+
+
+
+/*What is quickshop section*/
+
+section#quickshop-what{
+
+padding-top:90px;
+padding-bottom:90px;
+
+}
+
+
+section#quickshop-what h2{
+
+  font-family: 'Varela Round', sans-serif!important;
+padding-top: 30px;
+    color: #427A0F;
+    margin-bottom:30px;
+    font-size: 60px;
+    text-align:center;
+    font-weight:900;
+
+}
+
+section#quickshop-what p{
+
+    text-align:center;
+    font-size:20px!important;
+}
+
+
+/*Parralax holding Phone*/
+
+
+.holding-bg{
+
+background:url('./assets/images/holding-phone.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+
+}
+
+
+
+/*Parralax holding Phone*/
+
+
+.coupon-bg{
+
+background:url('./assets/images/coupon.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+
+}
+
+
+
+
+section#quickshop-subscribe{
+
+    padding-top:90px;
+    padding-bottom:90px;
+}
+
+
+
+section#quickshop-subscribe h2{
+
+font-family: 'Varela Round', sans-serif!important;
+padding-top: 30px;
+    color: #427A0F;
+    margin-bottom:10px;
+    font-size: 60px;
+    font-weight:900;
+    text-align:center;
+
+
+}
+
+section#quickshop-subscribe p{
+
+    font-size:20px;
+}
+
+
+
+
+/*Parralax holding Phone*/
+
+
+.subscribe-bg{
+
+background:url('./assets/images/subscribe.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+
+}
+
+
+/*Parralax  optin image*/
+.optin-bg{
+
+background:url('./assets/images/optin.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+
+
+
+}
+
+
+
+/*Parralax  social image*/
+.social-bg{
+
+background:url('./assets/images/social_bg.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+
+}
+
+ol.carousel-indicators {
+    display: none;
+}
+
+
+
+
+/*Business Buzz */
+
+#quickshop-buzz{
+padding-top:90px;
+padding-bottom:90px;
+
+
+}
+
+
+#quickshop-buzz h2{
+
+font-family: 'Varela Round', sans-serif!important;
+padding-top: 30px;
+    color: #427A0F;
+    margin-bottom:10px;
+    font-size: 60px;
+    text-align:center;
+    font-weight:900;
+
+}
+
+
+
+.buzz-bg{
+
+background:url('./assets/images/buzz.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+}
+
+
+
+
+/*quickshop */
+
+#quickshop-brand{
+padding-top:90px;
+padding-bottom:90px;
+
+
+}
+
+
+#quickshop-brand h2{
+
+font-family: 'Varela Round', sans-serif!important;
+padding-top: 30px;
+    color: #427A0F;
+    margin-bottom:10px;
+    font-size: 60px;
+    text-align:center;
+    font-weight:900;
+
+}
+
+.brand-bg{
+
+background:url('./assets/images/brand.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+}
+
+
+
+       /*--=============================================================================
+//WhiteBoard Quickshop
+=============================================================================*/
+
+.small-bg{
+background:url('./assets/images/car_hire.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+}
+
+/*Car Hire Heading*/
+.car-hire{
+
+position:absolute;
+display:block;
+left:40%;
+background-color:#E77A0D!important;
+border-radius:8px;
+width:25%!important;
+height:120px!important;
+margin-top:400px;
+padding-top:15px;
+padding-bottom:30px;
+
+}
+
+
+.small-bg h2{
+
+font-family: 'Varela Round', sans-serif!important;
+
+font-size:85px;
+text-align:center;
+color:white;
+
+
+
+}
+
+
+
+
+
+
+
+       /*--=============================================================================
+//Parralax Quickshop Dentist
+=============================================================================*/
+
+.dentist-bg h2{
+
+font-family: 'Varela Round', sans-serif!important;
+
+font-size:85px;
+text-align:center;
+color:white;
+
+
+
+}
+
+.dentist-bg{
+
+background:url('./assets/images/dentist.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+}
+
+
+
+/*Mechanic*/
+.car-bg{
+
+background:url('./assets/images/car-repair.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+}
+
+
+.car-bg h2{
+
+font-family: 'Varela Round', sans-serif!important;
+
+font-size:85px;
+text-align:center;
+color:white;
+
+
+
+}
+
+
+/*hairdresseer*/
+
+.hair-bg{
+
+background:url('./assets/images/hairdresser.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+}
+
+
+.hair-bg h2{
+
+font-family: 'Varela Round', sans-serif!important;
+font-size:75px;
+text-align:center;
+color:white;
+
+
+
+
+}
+
+
+
+
+/*Branded App*/
+
+.own-brand{
+padding-top:90px;
+padding-bottom:90px;
+
+}
+
+
+
+.own-brand h2{
+font-family: 'Varela Round', sans-serif!important;
+padding-top: 30px;
+    color: #427A0F;
+    margin-bottom:10px;
+    font-size: 60px;
+    text-align:center;
+    font-weight:900;
+
+
+}
+
+
+
+/*Own Brand Parralax Image*/
+
+
+.stand-bg{
+
+background:url('./assets/images/stand.jpg');
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+list-style:none;
+
+
+}
+
+
+
+
+ /*--=============================================================================
+//Responsive Queries for 2200px
+=============================================================================*/
+
+@media(max-width:2200px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center top;
+width:100%;
+background-size: 100% 160%;
+height: 100vh;
+
+
+}
+
+}
+
+
+ /*--=============================================================================
+//Responsive Queries for 1600px
+=============================================================================*/
+
+@media(max-width:1600px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center center;
+width:100%;
+background-size: 100% 120%;
+height: 100vh;
+
+}
+
+}
+
+
+/*--=============================================================================
+//Responsive Queries for 1100px
+=============================================================================*/
+
+@media(max-width:1100px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center center;
+width:100%;
+background-size: 100% 100%;
+height: 100vh;
+
+}
+
+}
+
+
+
+/*--=============================================================================
+//Responsive Queries for 990px
+=============================================================================*/
+
+@media(max-width:990px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center center;
+width:100%;
+background-size: 100% 100%;
+height: 100vh;
+
+}
+
+}
+
+
+
+/*--=============================================================================
+//Responsive Queries for 768px
+=============================================================================*/
+
+@media(max-width:768px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center center;
+width:100%;
+background-size: 100% 80%;
+height: 100vh;
+margin-top:-90px;
+
+}
+
+}
+
+
+
+/*--=============================================================================
+//Responsive Queries for 600px
+=============================================================================*/
+
+@media(max-width:600px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center center;
+width:100%;
+background-size: 100% 70%;
+height: 100vh;
+margin-top:-120px;
+
+}
+
+}
+
+
+/*--=============================================================================
+//Responsive Queries for 480px
+=============================================================================*/
+
+@media(max-width:480px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center center;
+width:100%;
+background-size: 100% 70%;
+height: 100vh;
+margin-top:-120px;
+
+}
+
+}
+
+
+
+/*--=============================================================================
+//Responsive Queries for 380px
+=============================================================================*/
+
+@media(max-width:380px){
+
+.carousel-item.active{
+
+/*height:1800px!important;*/
+background-position:center center;
+width:100%;
+background-size: 100% 50%;
+height: 100vh;
+margin-top:-200px;
+
+}
+
+}
+
+
+
+   
+
+

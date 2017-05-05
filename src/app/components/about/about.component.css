@@ -1,0 +1,197 @@
+
+/*=================================
+About Main background featured
+======================*/
+
+
+/*==General Styles==*/
+
+body{
+
+    background-color:white!important;
+}
+
+section{
+    padding-top:90px;
+    padding-bottom:90px;
+}
+
+h1{
+    font-size:70px;
+}
+
+
+
+p{
+color:black;
+font-size:20px;
+line-height:40px;
+text-align:center;
+padding: 0px 50px 50px 100px;
+
+}
+
+/*create parralax scroll effect*/
+
+.about{
+margin-top:-25px;
+/*height: 100vh;*/
+background:url('./assets/images/aboutbg.jpg');
+background-repeat:no-repeat;
+height:auto;
+ background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center;
+padding-bottom: 20px;
+
+}
+
+.col-md-12.about {
+    margin-top: 4px;
+}
+
+img.buzz{
+    margin-top:90px;
+width:30%;
+}
+
+.about h2{
+    margin-bottom:30px;
+color:white!important;
+font-size:28px!important;
+line-height:50px;
+
+}
+.about p{
+color:white;
+font-size:20px;
+line-height:30px;
+
+}
+
+
+/*SmartPhone Button */
+
+.smartphone{
+
+   position:absolute;
+   top:500px;
+  }
+
+button.btn.btn-warning.btn-lg{
+
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    background-color:darkorange;
+    border:0;
+    outline:none;
+}
+
+
+
+/*********************************
+People are searching section
+********/
+section#video-searching{
+
+background:url('assets/images/gradient2.jpg') no-repeat;
+height:auto;
+}
+
+#video-searching h1{
+color:white;
+font-size:60px;
+font-family: 'Muli', sans-serif;
+font-weight:900;
+
+
+}
+
+
+#video-searching h2{
+    margin-top:40px;
+color:white;
+font-size:40px;
+font-family: 'Muli', sans-serif;
+font-weight:900;
+
+
+}
+
+#video-searching p{
+font-size:20px;
+text-align:center;
+padding-bottom:30px;
+font-family: 'Muli', sans-serif;
+margin-top:20px;
+
+}
+
+
+/*Button smartphone*/
+
+button.btn.btn-default.btn-lg{
+    width: 30%;
+    height: 60px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 28px;
+    background-color:#242a2d!important;
+    color:white;
+    padding: 0px 20px;
+    margin-top:15px;
+    font-family:'oswald','sans-serif';
+    border:none;
+    outline:0;
+
+
+}
+
+iframe{
+width:80%;
+height:600px;
+
+}
+
+/************************
+Keeps Image
+**************/
+section.keeps-business {
+background-color: #0E0E0E;
+height:300px;
+
+}
+img.keeps-img{
+    width:100%;
+    margin-top:-40px;
+}
+
+
+/************************
+Video Section
+**************/
+
+section#video {
+
+padding-bottom:90px;
+background-color:#12100E!important;
+
+}
+
+
+iframe{
+
+    width:80%;
+    display:block;
+    margin:auto;
+}
+
+
